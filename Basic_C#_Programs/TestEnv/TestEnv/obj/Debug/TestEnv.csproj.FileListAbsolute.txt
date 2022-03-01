@@ -1,0 +1,7 @@
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\TestEnv\TestEnv\bin\Debug\TestEnv.exe.config
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\TestEnv\TestEnv\bin\Debug\TestEnv.exe
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\TestEnv\TestEnv\bin\Debug\TestEnv.pdb
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\TestEnv\TestEnv\obj\Debug\TestEnv.csproj.AssemblyReference.cache
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\TestEnv\TestEnv\obj\Debug\TestEnv.csproj.CoreCompileInputs.cache
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\TestEnv\TestEnv\obj\Debug\TestEnv.exe
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\TestEnv\TestEnv\obj\Debug\TestEnv.pdb
