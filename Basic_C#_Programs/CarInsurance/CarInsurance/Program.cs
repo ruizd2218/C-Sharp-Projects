@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CarInsurance
 {
@@ -21,8 +17,7 @@ namespace CarInsurance
 
             bool ticketLimit = tickets < 3;
 
-            bool qualified = ageLimit = true && (!dui && (ticketLimit = true));
-            Console.WriteLine(dui);
+            bool qualified = ageLimit && (!dui && (ticketLimit));
             Console.WriteLine("Are you qualified? - " + qualified);
             Console.Read();
         }   
