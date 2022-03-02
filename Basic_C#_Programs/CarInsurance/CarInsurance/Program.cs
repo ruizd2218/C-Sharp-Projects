@@ -15,7 +15,7 @@ namespace CarInsurance
 
             bool ageLimit = age > 15; //if age is more than 15, ageLimit is TRUE
 
-            bool ticketLimit = tickets < 3; //if tickets is less than 3, ticketLimit is True.
+            bool ticketLimit = tickets <= 3; //if tickets is less or equal to 3, ticketLimit is True.
 
             bool qualified = ageLimit && (!dui && (ticketLimit)); //qualified is only true if = ageLimit is true, dui is false, and ticketLimit is true.
             Console.WriteLine("Are you qualified? - " + qualified);
