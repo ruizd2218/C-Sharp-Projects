@@ -13,11 +13,11 @@ namespace CarInsurance
             Console.WriteLine("Have many speeding tickets do you have?");
             int tickets = Convert.ToInt32(Console.ReadLine());
 
-            bool ageLimit = age > 15;
+            bool ageLimit = age > 15; //if age is more than 15, ageLimit is TRUE
 
-            bool ticketLimit = tickets < 3;
+            bool ticketLimit = tickets < 3; //if tickets is less than 3, ticketLimit is True.
 
-            bool qualified = ageLimit && (!dui && (ticketLimit));
+            bool qualified = ageLimit && (!dui && (ticketLimit)); //qualified is only true if = ageLimit is true, dui is false, and ticketLimit is true.
             Console.WriteLine("Are you qualified? - " + qualified);
             Console.Read();
         }   
