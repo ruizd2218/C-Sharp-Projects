@@ -7,16 +7,17 @@ namespace TestEnv
     {
         static void Main()
         {
-            //bool trueOrFalse = 12 > 5;
-            //.ToString() converts the boolean value to a string
-            //Console.Write(trueOrFalse.ToString()); 
-            //Console.Read();
+            //int i = 27;
+            //while (i > 26)
+            //    {
+            //    Console.WriteLine(i);
+            //    i++;
+                
+            //    }
+            //Console.ReadLine();
 
-            int roomTemperature = 70;
-            int currentTemperature = 72;
-            bool isWarm = currentTemperature > roomTemperature;
-            Console.WriteLine(isWarm);
-            Console.ReadLine();
+
+
         }
     }
 }
