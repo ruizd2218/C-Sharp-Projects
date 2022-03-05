@@ -1,0 +1,7 @@
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\StrAndInts\StrAndInts\bin\Debug\StrAndInts.exe.config
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\StrAndInts\StrAndInts\bin\Debug\StrAndInts.exe
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\StrAndInts\StrAndInts\bin\Debug\StrAndInts.pdb
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\StrAndInts\StrAndInts\obj\Debug\StrAndInts.csproj.AssemblyReference.cache
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\StrAndInts\StrAndInts\obj\Debug\StrAndInts.csproj.CoreCompileInputs.cache
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\StrAndInts\StrAndInts\obj\Debug\StrAndInts.exe
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\StrAndInts\StrAndInts\obj\Debug\StrAndInts.pdb
