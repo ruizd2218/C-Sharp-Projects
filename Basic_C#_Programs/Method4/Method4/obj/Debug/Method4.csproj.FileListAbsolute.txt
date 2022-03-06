@@ -1,0 +1,7 @@
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\Method4\Method4\bin\Debug\Method4.exe.config
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\Method4\Method4\bin\Debug\Method4.exe
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\Method4\Method4\bin\Debug\Method4.pdb
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\Method4\Method4\obj\Debug\Method4.csproj.AssemblyReference.cache
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\Method4\Method4\obj\Debug\Method4.csproj.CoreCompileInputs.cache
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\Method4\Method4\obj\Debug\Method4.exe
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\Method4\Method4\obj\Debug\Method4.pdb
