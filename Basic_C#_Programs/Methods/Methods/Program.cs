@@ -12,15 +12,15 @@ namespace Methods
         {
             Console.WriteLine("Enter a number to add by 600.");
             int input1 = Convert.ToInt32(Console.ReadLine());
-            Math.Addition(input1);
+            Console.WriteLine(Math.Addition(input1));
 
             Console.WriteLine("Enter a number to subtract by 20");
             int input2 = Convert.ToInt32(Console.ReadLine());
-            Math.Subtraction(input2);
+            Console.WriteLine(Math.Addition(input2));
 
             Console.WriteLine("Enter a number to multiply by 15");
             int input3 = Convert.ToInt32(Console.ReadLine());
-            Math.Multiplication(input3);
+            Console.WriteLine(Math.Addition(input3));
 
             Console.ReadLine();
         }
