@@ -10,7 +10,11 @@ namespace MainMethod
     {
         static void Main(string[] args)
         {
-            Math.Addition("16", "2");
+            Math result = new Math();
+            int answer = result.Addition("16");
+
+            Console.WriteLine(answer);
+            Console.Read();
 
         }
     }
