@@ -10,8 +10,8 @@ namespace MainMethod
     {
         static void Main(string[] args)
         {
-            Math result = new Math();
-            int answer1 = result.Addition(16);
+            Math result = new Math(); //instantiated class
+            int answer1 = result.Addition(16); //answer = to the returned result of the method
             int answer2 = result.Addition(16.6M);
             int answer3 = result.Addition("16");
 
