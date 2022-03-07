@@ -10,19 +10,27 @@ namespace Method2
     {
         static void Main(string[] args)
         {
-            Math num3 = new Math();
+            int input1 = 0;
+            int input2 = 0;
+            int answer = 0;
             try
             {
+                
                 Console.WriteLine("Input atleast one operator to multiply");
                 Console.WriteLine("First Number-");
-                int input1 = Convert.ToInt32(Console.ReadLine());
+                input1 = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Second Number (you don't need to enter anything here)-");
-                int input2 = Convert.ToInt32(Console.ReadLine());
-                Math.Operation(input1, input2);
+                input2 = Convert.ToInt32(Console.ReadLine());
+                Math result = new Math();
+                answer = result.Operation(input1, input2);
+                Console.WriteLine(answer);
+
             }
             catch (System.FormatException)
             {
-                Console.WriteLine(num3);
+                Math result = new Math();
+                answer = result.Operation(input1);
+                Console.WriteLine(answer);
             }
             Console.Read();
 

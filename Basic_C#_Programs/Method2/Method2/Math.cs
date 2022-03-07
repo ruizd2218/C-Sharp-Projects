@@ -8,10 +8,11 @@ namespace Method2
 {
     class Math
     {
-        public static int Operation(int num1, int num2 = 65)
+        public int Operation(int num1, int num2 = 65)
         {
-            int num3 = num1 + num2;
-            return num3;
+            int answer = num1 + num2;
+            
+            return answer;
         }
     }
 }
