@@ -10,25 +10,21 @@ namespace Method2
     {
         static void Main(string[] args)
         {
-            int input1 = 0;
-            int input2 = 0;
+            Math num3 = new Math();
             try
             {
                 Console.WriteLine("Input atleast one operator to multiply");
                 Console.WriteLine("First Number-");
-                input1 = Convert.ToInt32(Console.ReadLine());
+                int input1 = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Second Number (you don't need to enter anything here)-");
-                input2 = Convert.ToInt32(Console.ReadLine());
-
-                
+                int input2 = Convert.ToInt32(Console.ReadLine());
+                Math.Operation(input1, input2);
             }
             catch (System.FormatException)
             {
-             
-                Math.Operation(input1);
-                Console.Read();
+                Console.WriteLine(num3);
             }
-
+            Console.Read();
 
 
         }

@@ -11,7 +11,6 @@ namespace Method2
         public static int Operation(int num1, int num2 = 65)
         {
             int num3 = num1 + num2;
-            Console.WriteLine(num3);
             return num3;
         }
     }
