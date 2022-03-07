@@ -11,9 +11,13 @@ namespace MainMethod
         static void Main(string[] args)
         {
             Math result = new Math();
-            int answer = result.Addition("16");
+            int answer1 = result.Addition(16);
+            int answer2 = result.Addition(16.6M);
+            int answer3 = result.Addition("16");
 
-            Console.WriteLine(answer);
+            Console.WriteLine(answer1);
+            Console.WriteLine(answer2);
+            Console.WriteLine(answer3);
             Console.Read();
 
         }
