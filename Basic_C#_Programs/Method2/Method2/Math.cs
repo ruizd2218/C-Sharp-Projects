@@ -10,7 +10,7 @@ namespace Method2
     {
         public int Operation(int num1, int num2 = 65)
         {
-            int answer = num1 + num2;
+            int answer = num1 * num2;
             
             return answer;
         }
