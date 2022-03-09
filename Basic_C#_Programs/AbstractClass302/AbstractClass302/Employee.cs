@@ -13,9 +13,9 @@ namespace AbstractClass302
             Console.WriteLine("Name: " + firstName + " " + lastName);
         }
 
-        public void Quit()
+        public void Quit(string fn)
         {
-            Console.WriteLine("Are you sure you want to quit?");
+            Console.WriteLine("Quitting, " + fn);
         }
 
         

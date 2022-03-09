@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractClass302
 {
-    abstract class Person
+    class Person
     {
         public string firstName { get; set; }
         public string lastName { get; set; }
@@ -16,6 +16,6 @@ namespace AbstractClass302
             Console.WriteLine("Name: " + firstName + " " + lastName);
         }
 
-
+        
     }
 }

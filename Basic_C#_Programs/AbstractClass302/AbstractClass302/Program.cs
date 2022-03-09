@@ -10,18 +10,12 @@ namespace AbstractClass302
     {
         static void Main(string[] args)
         {
+
             Employee emp = new Employee();
             emp.firstName = "Sample";
-            emp.lastName = "Student";
+            emp.Quit(emp.firstName);
 
-            emp.SayName();
-
-
-            emp.Quit();
-            
             Console.Read();
-
-
         }
     }
 }

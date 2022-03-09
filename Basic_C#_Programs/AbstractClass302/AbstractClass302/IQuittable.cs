@@ -8,6 +8,6 @@ namespace AbstractClass302
 {
     interface IQuittable
     {
-        void Quit();
+        void Quit(string fn);
     }
 }
