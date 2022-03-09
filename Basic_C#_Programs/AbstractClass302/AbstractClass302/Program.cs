@@ -10,10 +10,11 @@ namespace AbstractClass302
     {
         static void Main(string[] args)
         {
-
             Employee emp = new Employee();
+            IQuittable quit = new Employee();
             emp.firstName = "Sample";
-            emp.Quit(emp.firstName);
+            
+            quit.Quit(emp.firstName);
 
             Console.Read();
         }
