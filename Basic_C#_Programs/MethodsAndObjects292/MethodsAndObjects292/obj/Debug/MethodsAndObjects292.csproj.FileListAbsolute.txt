@@ -1,0 +1,7 @@
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodsAndObjects292\MethodsAndObjects292\bin\Debug\MethodsAndObjects292.exe.config
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodsAndObjects292\MethodsAndObjects292\bin\Debug\MethodsAndObjects292.exe
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodsAndObjects292\MethodsAndObjects292\bin\Debug\MethodsAndObjects292.pdb
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodsAndObjects292\MethodsAndObjects292\obj\Debug\MethodsAndObjects292.csproj.AssemblyReference.cache
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodsAndObjects292\MethodsAndObjects292\obj\Debug\MethodsAndObjects292.csproj.CoreCompileInputs.cache
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodsAndObjects292\MethodsAndObjects292\obj\Debug\MethodsAndObjects292.exe
+C:\Users\Diego\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodsAndObjects292\MethodsAndObjects292\obj\Debug\MethodsAndObjects292.pdb
