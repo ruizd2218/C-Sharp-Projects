@@ -15,7 +15,13 @@ namespace AbstractClass302
             emp.lastName = "Student";
 
             emp.SayName();
+
+
+            emp.Quit();
+            
             Console.Read();
+
+
         }
     }
 }
