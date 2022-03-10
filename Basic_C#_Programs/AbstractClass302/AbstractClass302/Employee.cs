@@ -10,6 +10,8 @@ namespace AbstractClass302
     {
         public int ID { get; set; }
 
+        string things = 
+
         Employee emp1 = new Employee() { ID = 062 };
         Employee emp2 = new Employee() { ID = 025 };
 
