@@ -10,12 +10,10 @@ namespace AbstractClass302
     {
         static void Main(string[] args)
         {
-            Employee emp = new Employee();
-            IQuittable quit = new Employee();
-            Person per = new Person();
+            Employee emp1 = new Employee();
+            Employee emp2 = new Employee();
 
-            bool trueFalse = per.ID == emp.EmployeeID;
-            Console.WriteLine(trueFalse);
+            
 
 
 

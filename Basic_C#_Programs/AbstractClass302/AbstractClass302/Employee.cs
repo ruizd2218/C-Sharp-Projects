@@ -6,20 +6,36 @@ using System.Threading.Tasks;
 
 namespace AbstractClass302
 {
-    class Employee : Person, IQuittable
+    class Employee : Person
     {
-        public int EmployeeID = 024;
-        
-        public void SayName()
+        public int ID { get; set; }
+
+        Employee emp1 = new Employee() { ID = 062 };
+        Employee emp2 = new Employee() { ID = 025 };
+
+        public static bool operator ==(Employee emp1, Employee emp2)
         {
-            Console.WriteLine("Name: " + firstName + " " + lastName);
+            if (emp1.ID == emp2.ID)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
-
-        public void Quit(string fn)
+        public static bool operator !=(Employee emp1, Employee emp2)
         {
-            Console.WriteLine("Quitting, " + fn);
+            if (emp1.ID != emp2.ID)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
         }
-
-
     }
 }
+
+
