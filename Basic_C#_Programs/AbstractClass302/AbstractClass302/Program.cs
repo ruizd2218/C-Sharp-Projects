@@ -12,11 +12,18 @@ namespace AbstractClass302
         {
             Employee emp = new Employee();
             IQuittable quit = new Employee();
-            emp.firstName = "Sample";
-            
-            quit.Quit(emp.firstName);
+            Person per = new Person();
+
+            bool trueFalse = per.ID == emp.EmployeeID;
+            Console.WriteLine(trueFalse);
+
+
 
             Console.Read();
+
+
         }
+
+
     }
 }

@@ -8,6 +8,8 @@ namespace AbstractClass302
 {
     class Employee : Person, IQuittable
     {
+        public int EmployeeID = 024;
+        
         public void SayName()
         {
             Console.WriteLine("Name: " + firstName + " " + lastName);
@@ -18,6 +20,6 @@ namespace AbstractClass302
             Console.WriteLine("Quitting, " + fn);
         }
 
-        
+
     }
 }

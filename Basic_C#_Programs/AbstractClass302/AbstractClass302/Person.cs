@@ -10,6 +10,7 @@ namespace AbstractClass302
     {
         public string firstName { get; set; }
         public string lastName { get; set; }
+        public int ID = 052;
 
         public void sayName()
         {
