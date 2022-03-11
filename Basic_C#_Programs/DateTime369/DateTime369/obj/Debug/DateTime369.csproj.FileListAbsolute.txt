@@ -1,0 +1,7 @@
+C:\Users\Diego\source\repos\DateTime369\DateTime369\bin\Debug\DateTime369.exe.config
+C:\Users\Diego\source\repos\DateTime369\DateTime369\bin\Debug\DateTime369.exe
+C:\Users\Diego\source\repos\DateTime369\DateTime369\bin\Debug\DateTime369.pdb
+C:\Users\Diego\source\repos\DateTime369\DateTime369\obj\Debug\DateTime369.csproj.AssemblyReference.cache
+C:\Users\Diego\source\repos\DateTime369\DateTime369\obj\Debug\DateTime369.csproj.CoreCompileInputs.cache
+C:\Users\Diego\source\repos\DateTime369\DateTime369\obj\Debug\DateTime369.exe
+C:\Users\Diego\source\repos\DateTime369\DateTime369\obj\Debug\DateTime369.pdb
