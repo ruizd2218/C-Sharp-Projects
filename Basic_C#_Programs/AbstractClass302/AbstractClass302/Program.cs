@@ -24,9 +24,9 @@ namespace AbstractClass302
             //        }
             //}
 
+            //Where the name in employees starts with joe, it selects it and sends it to the "joes" list
             List<string> joes = employees.Where(name => name.StartsWith("Joe"))
                                          .Select(name => Convert.ToString(name))
-                                         .ToList(); 
 
             Console.WriteLine(joes);
 
