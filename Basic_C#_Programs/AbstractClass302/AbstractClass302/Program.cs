@@ -10,14 +10,25 @@ namespace AbstractClass302
     {
         static void Main(string[] args)
         {
-            Employee emp1 = new Employee();
-            Employee emp2 = new Employee();
-            emp1.ID = 052;
-            emp2.ID = 024;
+            List<string> employees = new List<string>() {"Alex Robertson", "Jason Stokes", "Nick Gutierrez", "Edward Sparks", "Joe Leone",
+            "Jacob Simon", "Lucy Barre", "Melissa Stokes", "Joe Stone", "Benjamin Buxton"
+            };
 
-            Console.WriteLine(emp1 == emp2);
+            //List<string> joes = new List<string>();
 
+            //foreach (string name in employees) 
+            //{
+            //    if (name.StartsWith("Joe"))
+            //        {
+            //            joes.Add(name);
+            //        }
+            //}
 
+            List<string> joes = employees.Where(name => name.StartsWith("Joe"))
+                                         .Select(name => Convert.ToString(name))
+                                         .ToList(); 
+
+            Console.WriteLine(joes);
 
             Console.Read();
 
