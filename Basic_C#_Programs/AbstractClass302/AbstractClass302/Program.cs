@@ -12,8 +12,10 @@ namespace AbstractClass302
         {
             Employee emp1 = new Employee();
             Employee emp2 = new Employee();
+            emp1.ID = 052;
+            emp2.ID = 024;
 
-            
+            Console.WriteLine(emp1 == emp2);
 
 
 

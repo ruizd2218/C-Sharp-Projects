@@ -10,11 +10,6 @@ namespace AbstractClass302
     {
         public int ID { get; set; }
 
-        string things = 
-
-        Employee emp1 = new Employee() { ID = 062 };
-        Employee emp2 = new Employee() { ID = 025 };
-
         public static bool operator ==(Employee emp1, Employee emp2)
         {
             if (emp1.ID == emp2.ID)
