@@ -19,17 +19,17 @@ namespace AbstractClass302
             Employee emp7 = new Employee() { firstName = "Lucy", lastName = "Barre", ID = 7 };
             Employee emp8 = new Employee() { firstName = "Melissa", lastName = "Stokes", ID =8 };
             Employee emp9 = new Employee() { firstName = "Joe", lastName = "Stone", ID = 9 };
-            Employee emp10 = new Employee() { firstName = "Joe", lastName = "Stone", ID = 10 };
+            Employee emp10 = new Employee() { firstName = "Jack", lastName = "Brunson", ID = 10 };
 
             List<Employee> employees = new List<Employee>() { emp1, emp2, emp3, emp4, emp5, emp6, emp7, emp8, emp9, emp10 } ;
 
-            List<string> joes = new List<string>();
+            List<Employee> joes = new List<Employee>();
 
             foreach (Employee name in employees)
             {
                 if (name.firstName == "Joe")
                 {
-                    joes.Add(Convert.ToString(name));
+                    joes.Add(name);
                 }
             }
             
@@ -42,9 +42,22 @@ namespace AbstractClass302
             List<Employee> IDComp = employees.Where(ident => Convert.ToInt32(ident.ID) > 5)
                                              .ToList();
 
-            Console.WriteLine(joes);
-            Console.WriteLine(joesLambda);
+            foreach (Employee emp in joes)
+            {
+                Console.WriteLine("\n" + emp.firstName + " " + emp.lastName);
+            }
 
+            
+
+            foreach (Employee emp in joesLambda) 
+            {
+                Console.WriteLine("\n" + emp.firstName + " " + emp.lastName);
+            }
+
+            foreach (Employee emp in IDComp)
+            {
+                Console.WriteLine("\n" + emp.firstName + " " + emp.lastName + " ID - " + emp.ID);
+            }
 
             Console.Read();
 
