@@ -1,4 +1,4 @@
-﻿
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,8 +13,12 @@ namespace Const383
             const string avocadoes = "Avocadoes are edible";
             var apples = "apples are edible";
 
-            System.Console.WriteLine(avocadoes +"\n"+ apples);
-            System.Console.Read();
+            Console.WriteLine(avocadoes +"\n"+ apples);
+
+            Person a = new Person("Diego");
+            
+            
+            Console.Read();
         }
     }
 }
