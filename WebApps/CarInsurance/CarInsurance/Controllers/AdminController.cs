@@ -16,13 +16,13 @@ namespace CarInsurance.Controllers
             using (InsuranceEntities db = new InsuranceEntities())
             {
                 var InsQuo = new List<InsuranceVM>();
-                foreach (var quotes in InsQuo)
+                foreach (var ins in InsQuo)
                 {
                     var InsuranceVM = new InsuranceVM();
-                    InsuranceVM.Quote = InsuranceVM.Quote;
-                    InsuranceVM.FirstName = InsuranceVM.FirstName;
-                    InsuranceVM.LastName = InsuranceVM.LastName;
-                    InsuranceVM.EmailAddress = InsuranceVM.EmailAddress;
+                    InsuranceVM.Quote = ins.Quote;
+                    InsuranceVM.FirstName = ins.FirstName;
+                    InsuranceVM.LastName = ins.LastName;
+                    InsuranceVM.EmailAddress = ins.EmailAddress;
                     
                     InsQuo.Add(InsuranceVM);
                 }
