@@ -61,11 +61,11 @@ namespace CarInsurance.Controllers
                 DateTime Eighteen = now.AddYears(-18);
                 DateTime TwentyFive = now.AddYears(-25);
 
-                if (insuree.DateOfBirth <= Eighteen)
+                if (insuree.DateOfBirth >= Eighteen)
                 {
-                    insuree.Quote += 100;
+                    insuree.Quote += 100 ;
                 }
-                else if (insuree.DateOfBirth <= Eighteen && insuree.DateOfBirth <= TwentyFive)
+                else if (insuree.DateOfBirth <= Eighteen && insuree.DateOfBirth >= TwentyFive)
                 {
                     insuree.Quote += 50;
                 }
@@ -91,18 +91,15 @@ namespace CarInsurance.Controllers
 
                 if (insuree.DUI == true)
                 {
-                    insuree.Quote += 25 / 100;
+                    insuree.Quote += insuree.Quote * .25m;
                 }
 
                 if (insuree.CoverageType == true)
                 {
-                    insuree.Quote += 50 / 100;
+                    insuree.Quote += insuree.Quote * .5m;
                 }
 
-                for (int i = 1; i == insuree.SpeedingTickets; i = i + 1)
-                {
-                    insuree.Quote += 10;
-                }
+                insuree.Quote += insuree.Quote * .5m;
 
                 db.Insurees.Add(insuree);
                 db.SaveChanges();
