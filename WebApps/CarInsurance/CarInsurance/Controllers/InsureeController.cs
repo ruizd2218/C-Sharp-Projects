@@ -99,7 +99,6 @@ namespace CarInsurance.Controllers
                     insuree.Quote += insuree.Quote * .5m;
                 }
 
-                insuree.Quote += insuree.Quote * .5m;
 
                 db.Insurees.Add(insuree);
                 db.SaveChanges();
